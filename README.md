@@ -3,12 +3,12 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 
 
 ## Usage
-Within bash, type `node liri.js` or `node liri.js <command>`
+Within bash, type `node liri.js` or `node liri.js <LIRI Command>`
 
 LIRI takes in 4 basic commands which performs 4 different tasks
 
 * `my-tweets` Shows a user's Tweets.
-* `spotify-this-song` Display's information of songs.
+* `spotify-this-song` Displays information of songs.
 * `movie-this` Displays information of a Movie.
 * `do-what-it-says` Picks a random command stored in a text file.
 
