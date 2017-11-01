@@ -32,5 +32,5 @@ Instead of grouping all the code in one file, LIRI has been split into multiple 
 2. `liri.js` Main execution point.
 3. `functions.js` File that stores all the Functions.
 4. `questions.js` File that stores all the questions used by inquirer.
-5. 'random.txt' Stores random commands for LIRI to execute.
-6. 'log.txt' Stores a log of user commands and results.
+5. `random.txt` Stores random commands for LIRI to execute.
+6. `log.txt` Stores a log of user commands and results.
