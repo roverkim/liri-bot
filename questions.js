@@ -17,7 +17,7 @@ var questionObject = {
         name: "limit",
         default: "20",
         validate: function(value){
-          return Number.isInteger(value)? true : "Invalid Input! Please input a whole number!"
+          return Number.isInteger(parseInt(value))? true : "Invalid Input! Please input a whole number!"
         }
     }],
 
@@ -34,7 +34,7 @@ var questionObject = {
         name: "limit",
         default: "1",
         validate: function(value){
-          return Number.isInteger(value)? true : "Invalid Input! Please input a whole number!"
+          return Number.isInteger(parseInt(value))? true : "Invalid Input! Please input a whole number!"
         }
     }
   ],
