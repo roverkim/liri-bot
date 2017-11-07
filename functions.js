@@ -33,7 +33,7 @@ function getTweets(){
         let tweetCount = 0;
 
         let jsonTweet = JSON.stringify(currentTweets); // Converts Back to JSON String
-        logtxt(answers.twitterName, answers.limitm); // Log the Response
+        logtxt(answers.twitterName, answers.limit); // Log the Response
         logtxt(jsonTweet); // Log the Tweets
 
 
